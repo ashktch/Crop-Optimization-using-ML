@@ -4,7 +4,7 @@
 
 ## Overview
 
-CropOpt ML is a machine learning-based project that helps farmers optimize their crop selection based on soil nutrient levels. By analyzing soil parameters such as Nitrogen (N), Phosphorus (P), Potassium (K), and pH, the system predicts the best-suited crops for cultivation.
+CropOpt is a machine learning-based project that helps farmers optimize their crop selection based on soil nutrient levels. By analyzing soil parameters such as Nitrogen (N), Phosphorus (P), Potassium (K), and pH, the system predicts the best-suited crops for cultivation.
 
 ## Features
 
