@@ -1,6 +1,6 @@
 # CropOpt🌱
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Overview
 
@@ -19,23 +19,23 @@ CropOpt is a machine learning-based project that helps farmers optimize their cr
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/ashktch/CropOpt.git
-    ```
+   ```bash
+   git clone https://github.com/ashktch/CropOpt.git
+   ```
 
 2. Install dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 1. Run the application:
 
-    ```bash
-    python app.py
-    ```
+   ```bash
+   python app.py
+   ```
 
 2. Open your browser and go to [http://localhost:5000](http://localhost:5000).
 
