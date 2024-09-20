@@ -14,8 +14,18 @@ model.fit(X_train,y_train)
 y_pred=model.predict(X_test)
 print(accuracy_score(y_test,y_pred))
 
-@app.route('/')
-def hello():
-    return "Hello"
+@app.route("/", methods=["GET", "POST"])
+def index():
+    if request.method == "POST":
+        n = request.form.get("n")
+        p = request.form.get("k")
+        k = request.form.get("p")
+        pH = request.form.get("pH")
+        global model
+        res = model.predict(np.array([[n, p, k, pH]]))
+        print(res)
+        return render_template("index.html", res=res[0])
+
+    return render_template("index.html")
 if __name__ == '__main__':
     app.run(debug=True)
